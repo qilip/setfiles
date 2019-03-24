@@ -27,7 +27,9 @@ REM editer
 choco install notepadplusplus -y
 choco install brackets -y
 choco install atom -y
-choco install vscode -y
+
+REM choco install -> asking administrator privileges?
+::choco install vscode -y
 
 REM dev
 choco install putty -y
